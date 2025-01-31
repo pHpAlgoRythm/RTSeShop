@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+
+body{
+    overflow-x: unset!important;
+}
+
+.navigation{
+    @apply w-full h-[100px] sticky top-0 border-b border-black flex pl-[50px] items-center gap-[250px] justify-center bg-white
+}
+
+.tagline{
+   @apply text-[30px] font-bold cursor-pointer 
+}
+
+.tagline:hover{
+    @apply translate-y-[-5px]
+}
+
+.navBtnContainer{
+    @apply flex gap-[20px] 
+}
+
+.navBtnContainer button{
+    @apply cursor-pointer
+}
+
+.navBtnContainer button:hover{
+    @apply border-b border-black
+}
+
+.navRight{
+    @apply flex gap-[40px]
+}
+
+.searchbar{
+    @apply bg-gray-100 h-[30px] flex gap-[5px] w-[220px] items-center
+}
+
+.searchbar input{
+    @apply w-full pl-[5px] border-none outline-none
+}
+
+.searchbar input::after{
+    @apply border-none outline-none
+}
+
+.searchbar button{
+    @apply bg-transparent flex items-center justify-center mr-[8px] cursor-pointer text-[18px] 
+}
+
+.iconContainer{
+    @apply text-[25px] flex gap-[15px] 
+}
+
+.iconContainer i{
+    @apply cursor-pointer
+}
+
+.dashBoard{
+    @apply flex flex-col w-full justify-center items-center
+}
+
+.poster{
+    @apply w-full h-[350px] flex justify-center mt-[50px]
+}
+
+.poster img{
+    @apply w-[75%] h-full
+}
+
+.categoryTitleHolder{
+    @apply  w-[75%] h-[30px] flex gap-[5px] items-center mt-[100px]
+}
+
+.redMark{
+    @apply  w-[15px] h-full bg-red-500
+}
