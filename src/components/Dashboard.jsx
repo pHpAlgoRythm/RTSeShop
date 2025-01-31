@@ -1,6 +1,7 @@
 
 import Poster from "./dashboardComponents/Poster";
 import Categories from "./dashboardComponents/Categories";
+import MonthlyFeature from "./dashboardComponents/MonthlyFeature";
 
 
 function Dashboard(){
@@ -10,6 +11,8 @@ function Dashboard(){
             <Poster></Poster>
             <br />
             <Categories></Categories>
+            <br />
+            <MonthlyFeature></MonthlyFeature>
 
     </div>
 
